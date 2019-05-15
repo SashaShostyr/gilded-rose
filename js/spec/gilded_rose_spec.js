@@ -1,4 +1,4 @@
-var { Shop, Item } = require("../src/gilded_rose.js");
+import { Shop, Item } from "../src/gilded_rose";
 
 function sharedBehaviorForNameValue(itemName) {
   describe("(default name value)", function() {
